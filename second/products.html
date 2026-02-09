@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lynkit - Our Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="prod-style.css">
+</head>
+<body>
+    <!-- Main Header -->
+    <header class="site-header">
+        <div class="content-wrapper top-header">
+            <div class="brand">
+                <div class="brand-symbol">
+                    <i class="fas fa-link"></i>
+                </div>
+                <div class="brand-name">Lyn<span>kit</span></div>
+            </div>
+            
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="current">Products</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Industries</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Company</a></li>
+                </ul>
+            </nav>
+            
+            <div class="action-buttons">
+                <button class="action-btn action-btn-outline">Login</button>
+                <button class="action-btn action-btn-main">Contact Sales</button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Products Hero Section -->
+    <section class="product-banner">
+        <div class="content-wrapper">
+            <div class="banner-content">
+                <h1>Our <span>Product Suite</span></h1>
+                <p class="banner-sub">A comprehensive set of solutions that work together seamlessly to create a truly linked supply chain ecosystem.</p>
+                <div class="banner-stats">
+                    <div class="banner-stat">
+                        <div class="stat-num">8+</div>
+                        <div class="stat-text">Integrated Products</div>
+                    </div>
+                    <div class="banner-stat">
+                        <div class="stat-num">100%</div>
+                        <div class="stat-text">Seamless Integration</div>
+                    </div>
+                    <div class="banner-stat">
+                        <div class="stat-num">24/7</div>
+                        <div class="stat-text">Support</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Products Filter -->
+    <section class="filter-section">
+        <div class="content-wrapper">
+            <div class="filter-wrap">
+                <div class="filter-heading">Filter by Category:</div>
+                <div class="filter-buttons">
+                    <button class="filter-button active" data-filter="all">All Products</button>
+                    <button class="filter-button" data-filter="tracking">Tracking & Visibility</button>
+                    <button class="filter-button" data-filter="management">Management</button>
+                    <button class="filter-button" data-filter="analytics">Analytics</button>
+                    <button class="filter-button" data-filter="integration">Integration</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Products Grid -->
+    <section class="product-showcase">
+        <div class="content-wrapper">
+            <div class="product-listing" id="productListing">
+                <!-- Products will be loaded by JavaScript -->
+            </div>
+            
+            <div class="ecosystem-highlight">
+                <div class="highlight-icon">
+                    <i class="fas fa-link"></i>
+                </div>
+                <div class="highlight-content">
+                    <h3>Fully Integrated Ecosystem</h3>
+                    <p>All Lynkit products are designed to work together seamlessly. When you use multiple products, they automatically share data and create a unified view of your supply chain operations.</p>
+                    <button class="action-btn action-btn-main">Learn About Integration</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Comparison Table -->
+    <section class="compare-section">
+        <div class="content-wrapper">
+            <h2>Product Comparison</h2>
+            <p class="section-sub">See how our products complement each other in the supply chain ecosystem</p>
+            
+            <div class="table-container">
+                <table class="compare-table">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Lynktrac</th>
+                            <th>Lynkflow</th>
+                            <th>Lynkware</th>
+                            <th>Lynkview</th>
+                        </tr>
+                    </thead>
+                    <tbody id="compareBody">
+                        <!-- Rows will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta-area">
+        <div class="content-wrapper">
+            <div class="cta-content">
+                <h2>Ready to transform your supply chain?</h2>
+                <p>Get started with Lynkit's integrated product suite today.</p>
+                <div class="cta-actions">
+                    <button class="action-btn action-btn-main">Start Free Trial</button>
+                    <button class="action-btn action-btn-outline">Schedule a Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="prod-script.js"></script>
+</body>
+</html>
